@@ -18,6 +18,8 @@ public class DataGeneratorUtility {
 			outPut = faker.name().lastName();
 		} else if (input.equals("email")) {
 			outPut = faker.expression("#{letterify '?????@tekschool.us'}");
+		} else if (input.equals("password")) {
+			outPut = faker.internet().password();
 		} else if (input.equals("PhoneNumber")) {
 			outPut = faker.phoneNumber().cellPhone();
 		} else if (input.equals("fullName")) {

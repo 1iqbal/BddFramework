@@ -21,8 +21,11 @@ public class RetailAccountPage extends BaseSetup {
 	@FindBy(id = "personalPhoneInput")
 	public WebElement profilePhoneNumberField;
 
-	@FindBy(xpath = "//button[text()='Update']")
+	@FindBy(css = "#personalUpdateBtn")
 	public WebElement profileUpdateButton;
+	
+	@FindBy(css = "#emailInput")
+	public WebElement profileUpdateEmail;
 
 	@FindBy(xpath = "//div[text()='Personal Information Updated Successfully']")
 	public WebElement personalInfoUpdateSuccessMessage;

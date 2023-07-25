@@ -2,17 +2,13 @@ package tek.sdet.framework.steps;
 
 import java.util.List;
 import java.util.Map;
-
 import org.junit.Assert;
-
 import io.cucumber.datatable.DataTable;
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import tek.sdet.framework.pages.POMFactory;
 import tek.sdet.framework.utilities.CommonUtility;
 import tek.sdet.framework.utilities.DataGeneratorUtility;
-
 public class SignInSteps extends CommonUtility {
 	POMFactory factory = new POMFactory();
 
@@ -64,7 +60,9 @@ public class SignInSteps extends CommonUtility {
 	}
 	@Then("User should be logged into account page")
 	public void userShouldBeLoggedIntoAccountPage() {
+		waitTillPresence(factory.accountPage().profileImage);
 		Assert.assertTrue(isElementDisplayed(factory.accountPage().profileImage));
 		logger.info("user is login into account page");
 	}
 }
+

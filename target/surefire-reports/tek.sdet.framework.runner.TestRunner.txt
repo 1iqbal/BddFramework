@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: tek.sdet.framework.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 14.892 s <<< FAILURE! - in tek.sdet.framework.runner.TestRunner
+Retail Application Account Feature.Verify User can update Profile Information  Time elapsed: 6.267 s  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index: 0
+	at java.base/java.util.Collections$EmptyList.get(Collections.java:4586)
+	at tek.sdet.framework.steps.SignInSteps.userEnterEmailAndPasswordOnBelowForm(SignInSteps.java:27)
+	at ✽.User enter email and password on below form(classpath:features/RetailAccount.feature:7)
+
+Retail Application Account Feature.Verify User can add  an Address  Time elapsed: 4.162 s  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index: 0
+	at java.base/java.util.Collections$EmptyList.get(Collections.java:4586)
+	at tek.sdet.framework.steps.SignInSteps.userEnterEmailAndPasswordOnBelowForm(SignInSteps.java:27)
+	at ✽.User enter email and password on below form(classpath:features/RetailAccount.feature:7)
+
+TEK Retail Application SignIn feature.Verify user can sign in into Retail Application  Time elapsed: 3.928 s  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index: 0
+	at java.base/java.util.Collections$EmptyList.get(Collections.java:4586)
+	at tek.sdet.framework.steps.SignInSteps.userEnterEmailAndPasswordOnBelowForm(SignInSteps.java:27)
+	at ✽.User enter email and password on below form(classpath:features/SignIn.feature:9)
+

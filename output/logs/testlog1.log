@@ -949,3 +949,71 @@
 2023-07-25 19:41:03,231 [main] INFO logger_File - user filled the signUp information form
 2023-07-25 19:41:03,466 [main] INFO logger_File - user clicked on SignUpForm button
 2023-07-25 19:41:04,077 [main] INFO logger_File - user is login into account page
+2023-07-26 10:01:24,769 [main] INFO logger_File - user is on retail website
+2023-07-26 10:01:24,773 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-07-26 10:01:25,061 [main] INFO logger_File - User clicked on Sign in Option
+2023-07-26 10:01:25,151 [main] INFO logger_File - user entered email makho@tek.us and password Makho@tek7
+2023-07-26 10:01:25,396 [main] INFO logger_File - user clicked on login button
+2023-07-26 10:01:25,739 [main] INFO logger_File - user clicked on Account option
+2023-07-26 10:01:25,989 [main] INFO logger_File - user clicked on Add address option
+2023-07-26 10:01:26,764 [main] INFO logger_File - user filled the new address form with information provided in data table
+2023-07-26 10:01:27,042 [main] INFO logger_File - user clicked on Add your Address button
+2023-07-26 10:01:32,589 [main] INFO logger_File - user is on retail website
+2023-07-26 10:01:32,589 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-07-26 10:01:32,893 [main] INFO logger_File - user searched for product pokemon
+2023-07-26 10:01:32,913 [main] INFO logger_File - the Product is displayed on home page
+2023-07-26 10:01:36,618 [main] INFO logger_File - user is on retail website
+2023-07-26 10:01:36,618 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-07-26 10:01:36,876 [main] INFO logger_File - user clicked on All section
+2023-07-26 10:01:36,917 [main] INFO logger_File - Electronics is equal to Electronics
+2023-07-26 10:01:36,938 [main] INFO logger_File - Computers is equal to Computers
+2023-07-26 10:01:36,956 [main] INFO logger_File - Smart Home is equal to Smart Home
+2023-07-26 10:01:36,972 [main] INFO logger_File - Sports is equal to Sports
+2023-07-26 10:01:36,988 [main] INFO logger_File - Automative is equal to Automative
+2023-07-26 10:01:40,655 [main] INFO logger_File - user is on retail website
+2023-07-26 10:01:40,655 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-07-26 10:01:40,920 [main] INFO logger_File - user clicked on All section
+2023-07-26 10:01:41,203 [main] INFO logger_File - TV & Video is present 
+2023-07-26 10:01:41,243 [main] INFO logger_File - Video Games is present 
+2023-07-26 10:01:46,114 [main] INFO logger_File - user is on retail website
+2023-07-26 10:01:46,114 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-07-26 10:01:46,372 [main] INFO logger_File - user clicked on All section
+2023-07-26 10:01:46,657 [main] INFO logger_File - Accessories is present 
+2023-07-26 10:01:46,688 [main] INFO logger_File - Networking is present 
+2023-07-26 10:01:50,190 [main] INFO logger_File - user is on retail website
+2023-07-26 10:01:50,191 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-07-26 10:01:50,477 [main] INFO logger_File - user clicked on All section
+2023-07-26 10:01:50,746 [main] INFO logger_File - Smart Home Lightning is present 
+2023-07-26 10:01:50,776 [main] INFO logger_File - Plugs and Outlets is present 
+2023-07-26 10:01:55,928 [main] INFO logger_File - user is on retail website
+2023-07-26 10:01:55,929 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-07-26 10:01:56,204 [main] INFO logger_File - user clicked on All section
+2023-07-26 10:01:56,477 [main] INFO logger_File - Athletic Clothing is present 
+2023-07-26 10:01:56,508 [main] INFO logger_File - Exercise & Fitness is present 
+2023-07-26 10:02:00,752 [main] INFO logger_File - user is on retail website
+2023-07-26 10:02:00,752 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-07-26 10:02:01,005 [main] INFO logger_File - user clicked on All section
+2023-07-26 10:02:01,290 [main] INFO logger_File - Automative Parts & Accessories is present 
+2023-07-26 10:02:01,322 [main] INFO logger_File - MotorCycle & Powersports is present 
+2023-07-26 10:02:07,041 [main] INFO logger_File - user is on retail website
+2023-07-26 10:02:07,041 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-07-26 10:02:07,313 [main] INFO logger_File - User clicked on Sign in Option
+2023-07-26 10:02:07,401 [main] INFO logger_File - user entered email makho@tek.us and password Makho@tek7
+2023-07-26 10:02:07,642 [main] INFO logger_File - user clicked on login button
+2023-07-26 10:02:11,647 [main] INFO logger_File - user is on retail website
+2023-07-26 10:02:11,647 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-07-26 10:02:11,943 [main] INFO logger_File - User clicked on Sign in Option
+2023-07-26 10:02:12,024 [main] INFO logger_File - user entered email hamed@tek.us and password Hamed@tek7
+2023-07-26 10:02:12,269 [main] INFO logger_File - user clicked on login button
+2023-07-26 10:02:17,548 [main] INFO logger_File - user is on retail website
+2023-07-26 10:02:17,549 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-07-26 10:02:17,823 [main] INFO logger_File - User clicked on Sign in Option
+2023-07-26 10:02:17,911 [main] INFO logger_File - user entered email makho@tek.us and password Makho@tek7
+2023-07-26 10:02:18,147 [main] INFO logger_File - user clicked on login button
+2023-07-26 10:02:22,038 [main] INFO logger_File - user is on retail website
+2023-07-26 10:02:22,039 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-07-26 10:02:22,312 [main] INFO logger_File - User clicked on Sign in Option
+2023-07-26 10:02:22,552 [main] INFO logger_File - user clicked on Create New Account button
+2023-07-26 10:02:22,721 [main] INFO logger_File - user filled the signUp information form
+2023-07-26 10:02:22,957 [main] INFO logger_File - user clicked on SignUpForm button
+2023-07-26 10:02:23,568 [main] INFO logger_File - user is login into account page

@@ -16,8 +16,13 @@ public class SignInSteps extends CommonUtility {
 	public void userClickOnSignInOption() {
 	click(factory.homePage().signInButton);
 	logger.info("User clicked on Sign in Option");
-	
-	}
+//	}
+//	@When("User enter email and password")
+//	public void userEnterEmailAndPassword(DataTable dataTable) {
+//		List<List<String>> emailField = dataTable.asLists(String.class);
+//		sendText(factory.signInPage().emailField, DataGeneratorUtility.data(emailField.get(0).get(0)));
+//		sendText(factory.signInPage().passwordField, DataGeneratorUtility.data(emailField.get(0).get(1)));
+    }
 	@When("User enter email {string} and password {string}")
 	public void userEnterEmailAndPassword(String emailValue, String passwordValue) {
 	sendText(factory.signInPage().emailField, emailValue);

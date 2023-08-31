@@ -19,6 +19,6 @@ public class BaseUITest extends CommonUtility {
 			scenario.attach(screenshot, "image/png", scenario.getName() + " scenario Failed");
 		}
 
-		super.quitBrowser();
+//		super.quitBrowser();
 	}
 }

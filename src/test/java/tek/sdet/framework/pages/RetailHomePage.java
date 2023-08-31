@@ -68,8 +68,45 @@ public class RetailHomePage extends BaseSetup {
 	@FindBy(xpath ="//div[@class='sidebar_content-item']/span")
 	public List<WebElement> sideBarOptionElements;
 	
+	@FindBy(xpath ="//p[text()='Kasa Outdoor Smart Plug']")
+	public WebElement kasaOutdoorSmartPlug;
 	
+	@FindBy(xpath ="//select[@class='product__select']/option[2]")
+	public WebElement kasaOSPqty;
 	
+	@FindBy(xpath ="//button[@class='product__btn']//child::span")
+	public WebElement addToCart;
 	
-
+	@FindBy(xpath = "//span[@class='top-nav__cart-quantity']")
+	public WebElement cartQtyAssertion;
+	
+	@FindBy(css = "#cartBtn")
+	public WebElement cartOption;
+	
+	@FindBy(xpath = "//span[@class='cart__item-delete']")
+	public WebElement deleteItemOnCart;
+	
+	@FindBy(xpath = "//select[@class='product__select']")
+	public WebElement qtyField;
+	
+	@FindBy(css = "#proceedBtn")
+	public WebElement proceedToChechout;
+	
+	@FindBy(css = "#addAddressBtn")
+	public WebElement addANewAddressLinkOnCart;
+	
+	@FindBy(css = "#addPaymentBtn")
+	public WebElement addANewCreditOrDebitCard;
+	
+	@FindBy(css="#placeOrderBtn")
+	public WebElement placeYourOrder;
+    
+	@FindBy(xpath = "//p[text()='Order Placed, Thanks']")
+	public WebElement orderPlacedThanks;
+	
+//	@FindBy(xpath = "//option[text()='Electronics']")
+//	public WebElement electronics;
+	
+	@FindBy(xpath = "//img[@alt='Apex Legends - 1,000 Apex Coins']")
+	public WebElement apexLegendsProducts;
 }

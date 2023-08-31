@@ -1,10 +1,15 @@
-@JenkinsTriggerTest
+@Testana
 Feature: TEK Retail Application SignIn feature
 
   Background: 
     Given User is on retail website
     When User click on Sign in option
 
+  #Scenario: Verify user can sign in into Retail Application
+  #And User enter email and password
+  #| eamil | password |
+  #And User click on login button
+  #Then User should be logged in into Account
   @testJenkins
   Scenario: Verify user can sign in into Retail Application
     And User enter email 'makho@tek.us' and password 'Makho@tek7'

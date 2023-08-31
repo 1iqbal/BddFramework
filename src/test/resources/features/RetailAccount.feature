@@ -1,5 +1,6 @@
 @Testana
 Feature: Retail Application Account Feature
+
   Background: 
     Given User is on retail website
     When User click on Sign in option
@@ -8,12 +9,12 @@ Feature: Retail Application Account Feature
     And User should be logged in into Account
     When User click on Account option
 
-  #Scenario: Verify User can update Profile Information
-  #When User click on Account option
-  #And User update Name 'Hamed Jan' and Phone '9046013212'
-  #And User click on Update button
-  #Then User profile information should be updated
-  @JenkinsTriggerTest
+  Scenario: Verify User can update Profile Information
+    When User click on Account option
+    And User update Name 'firstName' and Phone 'PhoneNumber'
+    And User click on Update button
+    Then User profile information should be updated
+
   Scenario: Verify User can add  an Address
     And User click on  Add address option
     And User fill new address form with below information
@@ -21,7 +22,6 @@ Feature: Retail Application Account Feature
     And User click Add Your Address button
     Then a message should be displayed 'Address Added Successfully'
 
-  @JenkinsTriggerTest
   Scenario: Verify User can edit an Address added on account
     And User click on edit address option
     And user fill new address form with below information
@@ -29,7 +29,6 @@ Feature: Retail Application Account Feature
     And User click update Your Address button
     Then a address updated message should be displayed 'Address Updated Successfully'
 
-  @JenkinsTriggerTest
   Scenario: Verify User can remove Address from Account
     And User click on remove option of Address section
     Then Address details should be removed
@@ -55,5 +54,3 @@ Feature: Retail Application Account Feature
     And User click on Master Card to remove
     And User click on remove option of card section
     Then payment details should be removed
-
-

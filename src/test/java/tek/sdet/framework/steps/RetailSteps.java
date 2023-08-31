@@ -160,10 +160,6 @@ public class RetailSteps extends CommonUtility {
 		Select select = new Select(factory.homePage().qtyField);
 		select.selectByVisibleText(qty);
 		logger.info("user clicked on QTY field");
-//	}
-//	@When("User select quantity {string}")
-//	public void userSelectQty(String qty) {
-//		sendText(factory.homePage().kasaOSPqty, qty);
 	}
 	@When("User click add to Cart button")
 	public void userClickAddToCartButton() {
@@ -171,17 +167,8 @@ public class RetailSteps extends CommonUtility {
 	}
 	@When("the cart icon quantity should change to {string}")
 	public void theCartIconQuantityShouldChangeToTwo(String changedQty) throws InterruptedException {
-//		if(!factory.homePage().cartQtyAssertion.getText().equals(changedQty)) {
-//			waitTillClickable(factory.homePage().cartOption);
-//			click(factory.homePage().cartOption);
-//			waitTillClickable(factory.homePage().deleteItemOnCart);
-//			click(factory.homePage().deleteItemOnCart);
-//			logger.info("Item from the cart got deleted");
-//			if(factory.homePage().cartQtyAssertion.getText().equals(changedQty)) {
 				Assert.assertEquals(changedQty, factory.homePage().cartQtyAssertion.getText());
 				Thread.sleep(5000);
-//			}
-//		}
 	}
 	@When("User click on Cart option")
 	public void userClickToCart() {

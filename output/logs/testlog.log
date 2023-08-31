@@ -3395,3 +3395,31 @@
 2023-08-31 00:40:15,751 - logger_File -INFO - user filled the signUp information form
 2023-08-31 00:40:15,996 - logger_File -INFO - user clicked on SignUpForm button
 2023-08-31 00:40:16,081 - logger_File -INFO - user is login into account page
+2023-08-31 09:44:37,227 - logger_File -INFO - user is on retail website
+2023-08-31 09:44:37,231 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-08-31 09:44:37,534 - logger_File -INFO - User clicked on Sign in Option
+2023-08-31 09:44:37,628 - logger_File -INFO - user entered email deena@tek.us and password Deena@tek7
+2023-08-31 09:44:37,880 - logger_File -INFO - user clicked on login button
+2023-08-31 09:44:38,169 - logger_File -INFO - user clicked on Account option
+2023-08-31 09:44:38,423 - logger_File -INFO - user clicked on Account option
+2023-08-31 09:44:38,568 - logger_File -INFO - user updated Name and Phone values 
+2023-08-31 09:44:38,840 - logger_File -INFO - user clicked on Update button
+2023-08-31 09:44:39,403 - logger_File -INFO - user profile information updated
+2023-08-31 09:44:53,613 - logger_File -INFO - user is on retail website
+2023-08-31 09:44:53,617 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-08-31 09:44:53,913 - logger_File -INFO - User clicked on Sign in Option
+2023-08-31 09:44:54,006 - logger_File -INFO - user entered email deena@tek.us and password Deena@tek7
+2023-08-31 09:44:54,251 - logger_File -INFO - user clicked on login button
+2023-08-31 09:44:54,615 - logger_File -INFO - user clicked on Account option
+2023-08-31 09:44:54,860 - logger_File -INFO - user clicked on Account option
+2023-08-31 09:44:55,001 - logger_File -INFO - user updated Name and Phone values 
+2023-08-31 09:52:51,473 - logger_File -INFO - user is on retail website
+2023-08-31 09:52:51,477 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-08-31 09:52:51,784 - logger_File -INFO - User clicked on Sign in Option
+2023-08-31 09:52:51,867 - logger_File -INFO - user entered email deena@tek.us and password Deena@tek7
+2023-08-31 09:52:52,119 - logger_File -INFO - user clicked on login button
+2023-08-31 09:52:53,187 - logger_File -INFO - user clicked on Account option
+2023-08-31 09:52:53,434 - logger_File -INFO - user clicked on Account option
+2023-08-31 09:52:53,705 - logger_File -INFO - user updated Name and Phone values 
+2023-08-31 09:52:53,974 - logger_File -INFO - user clicked on Update button
+2023-08-31 09:52:54,539 - logger_File -INFO - user profile information updated

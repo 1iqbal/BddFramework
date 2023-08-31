@@ -10,7 +10,7 @@ Feature: TEK Retail Application SignIn feature
   #| eamil | password |
   #And User click on login button
   #Then User should be logged in into Account
-  @testJenkins
+
   Scenario: Verify user can sign in into Retail Application
     And User enter email 'makho@tek.us' and password 'Makho@tek7'
     And User click on login button
@@ -26,7 +26,7 @@ Feature: TEK Retail Application SignIn feature
       | hamed@tek.us | Hamed@tek7 |
       | makho@tek.us | Makho@tek7 |
 
-  @registerTest
+ 
   Scenario: Verify user can create an acount into Retail Website
     And User click on Create New Account button
     And User fill the signUp information with below data

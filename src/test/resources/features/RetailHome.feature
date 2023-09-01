@@ -27,7 +27,6 @@ Feature: This feature is use for testing UI of Retail page
       | Sports      | Athletic Clothing              | Exercise & Fitness       |
       | Automative  | Automative Parts & Accessories | MotorCycle & Powersports |
 
-  
   Scenario: Verify User can add an item to cart
     When User click on Sign in option
     And User enter email 'makho@tek.us' and password 'Makho@tek7'
